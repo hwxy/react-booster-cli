@@ -1,5 +1,5 @@
 {
-  "name": "module-a",
+  "name": "huhutest",
   "version": "1.1.0",
   "description": "> TODO: description",
   "author": "hu <337502348@qq.com>",
@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/hwxy/react-booster-cli/issues"
-  }
+  },
+  "gitHead": "9407000468009fc1c0261d77e9518a0a9620f175"
 }
