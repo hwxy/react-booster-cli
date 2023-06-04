@@ -1,9 +1,9 @@
 {
   "name": "module-a",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "hu <337502348@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/hwxy/react-booster-cli#readme",
   "license": "ISC",
   "main": "lib/module-a.js",
   "directories": {
@@ -13,11 +13,14 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/repository/npm-group/"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwxy/react-booster-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "a12b3223c395e8f03fb77f2d2910cb761e1e4f8d"
+  "bugs": {
+    "url": "https://github.com/hwxy/react-booster-cli/issues"
+  }
 }

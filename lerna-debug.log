@@ -1,9 +1,10 @@
-38 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/g4061nc54clb3th45z4m_t4m0000gn/T/bea0659f-ca75-49ab-ae7b-aa4368639151/lerna-commit.txt
-38 error On branch master
-38 error Your branch is up to date with 'origin/master'.
-38 error
-38 error nothing to commit, working tree clean
-38 error     at makeError (/Users/xiongxiong/项目/lerna/node_modules/execa/lib/error.js:60:11)
-38 error     at handlePromise (/Users/xiongxiong/项目/lerna/node_modules/execa/index.js:118:26)
-38 error     at processTicksAndRejections (internal/process/task_queues.js:94:5)
-38 error     at async Promise.all (index 0)
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/hwxy/react-booster-cli.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+15 error error: Could not fetch origin
+15 error Fetching origin
+15 error     at makeError (/Users/xiongxiong/项目/lerna/node_modules/execa/lib/error.js:60:11)
+15 error     at Function.module.exports.sync (/Users/xiongxiong/项目/lerna/node_modules/execa/index.js:194:17)
+15 error     at Object.execSync (/Users/xiongxiong/项目/lerna/node_modules/@lerna/child-process/index.js:39:16)
+15 error     at updateRemote (/Users/xiongxiong/项目/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (/Users/xiongxiong/项目/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (/Users/xiongxiong/项目/lerna/node_modules/@lerna/version/index.js:153:9)
