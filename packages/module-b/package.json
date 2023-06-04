@@ -1,0 +1,22 @@
+{
+  "name": "module-b",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "hu <337502348@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/module-b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.beisencorp.com/repository/npm-group/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
