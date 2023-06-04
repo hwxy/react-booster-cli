@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://npm.beisencorp.com/repository/npm-group/"
+    "registry": "https://registry.npmjs.org/repository/npm-group/"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
