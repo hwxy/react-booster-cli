@@ -1,0 +1,12 @@
+38 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/g4061nc54clb3th45z4m_t4m0000gn/T/83addacb-c464-48b1-a44e-88fcb63101fd/lerna-commit.txt
+38 error On branch master
+38 error Your branch is up to date with 'origin/master'.
+38 error
+38 error Untracked files:
+38 error 	lerna-debug.log
+38 error
+38 error nothing added to commit but untracked files present
+38 error     at makeError (/Users/xiongxiong/项目/lerna/node_modules/execa/lib/error.js:60:11)
+38 error     at handlePromise (/Users/xiongxiong/项目/lerna/node_modules/execa/index.js:118:26)
+38 error     at processTicksAndRejections (internal/process/task_queues.js:94:5)
+38 error     at async Promise.all (index 0)
