@@ -1353,6 +1353,11 @@
   dependencies:
     "delayed-stream" "~1.0.0"
 
+"commander@^9.0.0":
+  "integrity" "sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ=="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-9.5.0.tgz"
+  "version" "9.5.0"
+
 "compare-func@^2.0.0":
   "integrity" "sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA=="
   "resolved" "https://registry.npmmirror.com/compare-func/-/compare-func-2.0.0.tgz"
@@ -2135,6 +2140,12 @@
   dependencies:
     "agent-base" "6"
     "debug" "4"
+
+"huhutest@file:/Users/xiongxiong/项目/lerna/packages/module-a":
+  "resolved" "file:packages/module-a"
+  "version" "1.1.1"
+  dependencies:
+    "moduleb" "^1.0.0"
 
 "human-signals@^2.1.0":
   "integrity" "sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw=="
@@ -2952,11 +2963,11 @@
   "resolved" "https://registry.npmmirror.com/modify-values/-/modify-values-1.0.1.tgz"
   "version" "1.0.1"
 
-"module-a@file:/Users/xiongxiong/项目/lerna/packages/module-a":
-  "resolved" "file:packages/module-a"
+"moduleb@^1.0.0":
+  "resolved" "file:packages/module-b"
   "version" "1.0.0"
 
-"module-b@file:/Users/xiongxiong/项目/lerna/packages/module-b":
+"moduleb@file:/Users/xiongxiong/项目/lerna/packages/module-b":
   "resolved" "file:packages/module-b"
   "version" "1.0.0"
 
@@ -3602,7 +3613,7 @@
 
 "react-booster-cli@file:/Users/xiongxiong/项目/lerna/packages/react-booster-cli":
   "resolved" "file:packages/react-booster-cli"
-  "version" "0.0.0"
+  "version" "0.0.1"
   dependencies:
     "chalk" "4.1.2"
     "ejs" "^3.1.6"

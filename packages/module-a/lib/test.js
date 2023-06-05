@@ -1,7 +1,8 @@
 'use strict';
 
 module.exports = moduleA;
-
 function moduleA() {
-    // TODO
+    console.log(require("moduleb"));
 }
+
+moduleA()
