@@ -61,6 +61,7 @@ async function create(projectName) {
     // 生成项目配置文件，app.config.json
     const appConfig = {};
 
+    
     const { platform, stateLibrary,reactRouterVersion } = answers;
     
     if (platform === "mobile") {
