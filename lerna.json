@@ -1,7 +1,6 @@
 {
   "packages": [
-    "packages/*"
+    "packages/react-booster-cli"
   ],
-  "version": "independent",
-  "useWorkspaces": true
+  "version": "independent"
 }

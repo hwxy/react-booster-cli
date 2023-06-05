@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npx booster create ceshi"
+    "dev": "npx booster create ceshi",
+    "publish": "node script/publish.js"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
