@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require("path");
 
+
 module.exports = {
   writeFileTree: (projectPath, fileJson) => {
     fs.mkdirSync(projectPath);
