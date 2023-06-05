@@ -1,5 +1,5 @@
 {
-  "name": "react-booster-cli",
+  "name": "huhutesttest",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "hu <337502348@qq.com>",
@@ -32,5 +32,6 @@
   },
   "engines": {
     "node": "14"
-  }
+  },
+  "gitHead": "0fa3d203c6d021b619d32b21929799f09d8a0bb2"
 }
