@@ -1,6 +1,7 @@
 const { prompt } = require('inquirer');//生成命令行交互界面
 
 
+
 const questions = [
   {
     name: 'platform',
