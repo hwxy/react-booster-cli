@@ -1,6 +1,6 @@
 {
   "name": "react-booster-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "hu <337502348@qq.com>",
   "homepage": "",
@@ -24,11 +24,11 @@
   },
   "dependencies": {
     "chalk": "4.1.2",
+    "commander": "^9.0.0",
     "ejs": "^3.1.6",
     "isbinaryfile": "^4.0.8",
     "ora": "5.4.1",
-    "shelljs": "^0.8.5",
-    "commander": "^9.0.0"
+    "shelljs": "^0.8.5"
   },
   "engines": {
     "node": "14"
